@@ -1,0 +1,12 @@
+Here are the steps to install everything needed for this repository!
+Guide for Repository: https://youtu.be/oXlwWbU8l2o
+
+1) Install Python 3 onto this computer (https://www.python.org/downloads/)
+
+2) After installing, go to the Command Prompt or terminal and paste this command to install OpenCV
+        "pip install opencv-contrib-python"
+
+3) Once done, install "Caer" Library to help with OpenCV (made by creator of YT Course)
+        "pip install caer"
+
+4) That's it!
