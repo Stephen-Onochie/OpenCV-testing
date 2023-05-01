@@ -10,3 +10,6 @@ Guide for Repository: https://youtu.be/oXlwWbU8l2o
         "pip install caer"
 
 4) That's it!
+
+More Notes:
+1) If you can't get the command prompt or linux/macos terminal working, just open the terminal in VSCode and put in the commands above :)
