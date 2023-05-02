@@ -2,16 +2,9 @@ import cv2 as cv
 
 #Reading Photos
 img = cv.imread('Photos/dog1.jpg')
-
 cv.imshow('Dog', img)
 
 cv.waitKey(0)
-
-"""
-FCC OpenCV Course - https://www.youtube.com/watch?v=oXlwWbU8l2o&t=434s
-STOPPED AT 12:57
-Resizing & Rescaling
-"""
 
 
 #Reading Videos - Use integers (0,1,2,etc) for webcam or file path for videos
