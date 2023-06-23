@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b604ac70-2b9d-47e6-9157-a81e138bfd6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HandSignDetection/FaceDetection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HandSignDetection/FaceMesh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HandSignDetection/HandDetection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HandSignDetection/dataCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandSignDetection/dataCollection.py" afterDir="false" />
     </list>
@@ -37,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.HandDetection">
+  <component name="RunManager" selected="Python.dataCollection">
     <configuration name="FaceDetection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenCV-testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,8 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HandDetection" />
         <item itemvalue="Python.dataCollection" />
+        <item itemvalue="Python.HandDetection" />
         <item itemvalue="Python.FaceMesh" />
         <item itemvalue="Python.FaceDetection" />
       </list>
