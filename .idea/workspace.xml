@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b604ac70-2b9d-47e6-9157-a81e138bfd6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HandSignDetection/AtoI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HandSignDetection/Models/AtoI/keras_model.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HandSignDetection/Models/AtoI/labels.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandSignDetection/Model/keras_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/HandSignDetection/Models/AtoC/keras_model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandSignDetection/Model/labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HandSignDetection/Models/AtoC/labels.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandSignDetection/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandSignDetection/AtoC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandSignDetection/AtoI.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandSignDetection/AtoI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +41,7 @@
       <recent name="$PROJECT_DIR$/HandSignDetection/Models/AtoC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.AtoC">
+  <component name="RunManager" selected="Python.AtoI">
     <configuration name="AtoC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OpenCV-testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,10 +149,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.AtoC" />
         <item itemvalue="Python.AtoI" />
-        <item itemvalue="Python.dataCollection" />
         <item itemvalue="Python.HandDetection" />
+        <item itemvalue="Python.AtoC" />
+        <item itemvalue="Python.dataCollection" />
         <item itemvalue="Python.FaceMesh" />
       </list>
     </recent_temporary>
