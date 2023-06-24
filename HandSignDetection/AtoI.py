@@ -1,6 +1,7 @@
 # pip install opencv-python
 # pip install cvzone
 # pip install mediapipe
+# TODO Train more B Signs
 import math
 import cv2
 from cvzone.HandTrackingModule import HandDetector
@@ -10,15 +11,15 @@ import time
 
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
-classifier = Classifier("Model/keras_model.h5", "Model/labels.txt")
+classifier = Classifier("Models/AtoI/keras_model.h5", "Models/AtoI/labels.txt")
 
 offset = 20
 imgSize = 300
 
-folder = "Data/C"
+#folder = "Data/C"
 counter = 0
 
-labels = ['A', 'B', 'C']
+labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I']
 
 while True:
     success, img = cap.read()
@@ -61,11 +62,14 @@ while True:
         cv2.rectangle(imgOutput, (x-offset,y-offset), (x+w+offset, y+h+offset), (255,0,255), 4)
 
         # cropped image
-        cv2.imshow("ImageCrop", imgCrop)
+        # cv2.imshow("ImageCrop", imgCrop)
 
-        # white background w/ image
-        cv2.imshow("ImageWhite", imgWhite)
+        # image w/ white background
+        # cv2.imshow("ImageWhite", imgWhite)
 
-    # main video
+    # main image
     cv2.imshow("Image", imgOutput)
-    cv2.waitKey(1)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+cap.release()
+cv2.destroyAllWindows()
