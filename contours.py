@@ -10,7 +10,7 @@ Step 4: Turn into Canny image (desired outline)
 """
 
 
-img = cv.imread('Photos/preset-shapes.jpg') #input image into OpenCV
+img = cv.imread('Photos/Spike-Marks.png') #input image into OpenCV
 
 cv.imshow('Dog', img) #show the specific dog image in a window
 
@@ -23,7 +23,7 @@ gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY) #convert image into grayscale
 blur = cv.GaussianBlur(gray, (5,5), cv.BORDER_DEFAULT)
 #cv.imshow('Blur', blur)
 
-canny = cv.Canny(blur, 125, 175) #creates type of outline in an image
+canny = cv.Canny(blur, 50, 175) #creates type of outline in an image
 cv.imshow('Canny Edges', canny)
 
 # ret, thresh = cv.threshold(gray, 125, 255, cv.THRESH_BINARY)
